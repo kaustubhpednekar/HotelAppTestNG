@@ -21,6 +21,7 @@ public class HotelAppTest {
 		
 		driver.findElement(By.className("login_button")).click();
 		Reporter.log("This is login test");
+	  	System.out.println("Login Successfull");
   }
   @BeforeTest
   public void beforeTest() 
